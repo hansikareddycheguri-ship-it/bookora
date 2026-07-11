@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wings of Fire-Bookora</title>
+</head>
+<body>
+    <header>
+        <h1>Bookora</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Breadcrumb navigation using a list-->
+         <nav class="breadcrumb">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li>Wings of Fire</li>
+            </ol>
+         </nav>
+         <article class="book-detail">
+            <div class="book-image">
+                <img src="images/books/wings-of-fire.jpg" alt="Wings of Fire book cover">
+            </div>
+            <div class="book-info">
+                <h2>Wings of Fire</h2>
+                <p class="author">by <strong>A.P.J Abdul Kalam<strong></strong></p>
+                <div class="rating">
+                    ****4.8 out of 5 (2.341 reviews)
+                </div>
+                <p class="price">$299<small><s>$499</s>(40% off)</small></p>
+                <p class="description">
+                    Wings of Fire is the autobiography of A.P.J Abdul Kalam,India's 11th president and a renowned aerospace scientist . The book traces his journey from a small town in Tamil Nadu to becoming one of India's most beloved figures.
 
+                </p>
+                <!-- Book details using a description list-->
+                 <h3>Book  Details</h3>
+                 <dl class="book-details">
+                    <dt>Publisher:</dt>
+                    <dd>Universities Press</dd>
+                    <dt>Language:</dt>
+                    <dd>English</dd>
+                    <dt>Pages:</dt>
+                <dd>180</dd>
+                <dt>ISBN:</dt>
+                <dd>9788173711466</dd>
+                <dt>Format:</dt>
+                <dd>Paperback</dd>
+                 </dl>
+            <!--Quantity and add to cart-->
+            <div class="purchase-actions">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button class="btn-primary">Add to Cart</button>
+                <button class="btn-secondary">Buy Now</button>
+                </div>
+            </div>
+         </article>
+         <!--Reviews sectiion-->
+         <section class="reviews">
+            <h3>Customer Reviews</h3>
+            <article class="review">
+                <h4>Inspirational and motivating</h4>
+                <p class="reviewer">By <strong>Rahul S.</strong>| *****|15 Mar 2025</p>
+                <p>this book changed my perspective on hard word and dedication.Kalam's journey from humble beginnings is truly inspirational.</p>
+            </article>
+            <article class="review">
+                <h4>A must-read for every Indian</h4>
+                <p class="reviewer">By <strong>Priya M.</strong>|*****|2 April 2025</p>
+                <p>Couldn't put it down.Beautifully written and deeply moving.Recommended to everyone.</p>
+            </article>
+         </section>
+         <section class="related-books">
+
+<h2>
+
+Related Books
+
+</h2>
+
+<div class="books-grid">
+
+<article class="book-card">
+
+<img src="images/books/atomic-habits.jpg">
+
+<h3>
+
+Atomic Habits
+
+</h3>
+
+<p>
+
+₹499
+
+</p>
+
+</article>
+
+<article class="book-card">
+
+<img src="images/books/deep-work.jpg">
+
+<h3>
+
+Deep Work
+
+</h3>
+
+<p>
+
+₹579
+
+</p>
+
+</article>
+
+<article class="book-card">
+
+<img src="images/books/the-alchemist.jpg">
+
+<h3>
+
+The Alchemist
+
+</h3>
+
+<p>
+
+₹349
+
+</p>
+
+</article>
+
+</div>
+
+</section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Bookora.All rights reserved.</p>
+    </footer>
+</body>
+</html>
